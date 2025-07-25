@@ -5,6 +5,23 @@ body{
   
   
 }
+img{
+  height: 80px;
+  width: 80px; 
+  border-image: none;
+  background-color: #0a0a0a;
+  
+}
+#upar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 60px;
+  margin-bottom: 50px;
+  
+
+}
 
 
 .nav{
@@ -16,9 +33,7 @@ body{
     padding: 20px;
     
 }
-h2{
-    text-align: center;
-}
+
 
 input{
     height: 50px;
@@ -230,6 +245,10 @@ input{
     display: flex;
     flex-wrap: wrap;
     margin-left: 60px;
+  }
+
+  h2{
+    font-size:1.2rem;
   }
 
 
